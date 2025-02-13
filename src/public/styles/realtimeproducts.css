@@ -1,0 +1,68 @@
+#main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+}
+
+#main div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main div img {
+    width: 215px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #4962a7;
+    text-align: center;
+    border-bottom: 1px solid #4962a7;
+}
+
+.floating-add-button {
+    position: fixed; /* Hace que el botón quede fijo en la pantalla */
+    bottom: 25px;    /* Distancia desde la parte inferior */
+    right: 30px;     /* Distancia desde la parte derecha */
+    background-color: #007bff; /* Color de fondo */
+    color: white;             /* Color del texto */
+    border: none;             /* Sin borde */
+    border-radius: 50%;       /* Forma circular */
+    width: 60px;             /* Ancho */
+    height: 60px;            /* Alto */
+    font-size: 24px;          /* Tamaño del ícono o texto */
+    cursor: pointer;         /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto elevado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.floating-del-button {
+    position: fixed; /* Hace que el botón quede fijo en la pantalla */
+    bottom: 25px;    /* Distancia desde la parte inferior */
+    right: 100px;     /* Distancia desde la parte derecha */
+    background-color:tomato; /* Color de fondo */
+    color: white;             /* Color del texto */
+    border: none;             /* Sin borde */
+    border-radius: 50%;       /* Forma circular */
+    width: 60px;             /* Ancho */
+    height: 60px;            /* Alto */
+    font-size: 24px;          /* Tamaño del ícono o texto */
+    cursor: pointer;         /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto elevado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-del-button:hover {
+    background-color: firebrick; /* Cambia el color al pasar el mouse */
+}
+
+.floating-add-button:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}
