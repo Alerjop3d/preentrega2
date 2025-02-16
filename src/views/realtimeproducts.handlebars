@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Server</title>
     <link rel="stylesheet" href="styles/realtimeproducts.css" />
 </head>
 <body>
     <h1>Server of Ayo Technology</h1>
-    <div id="main">
+    <div id="main"></div>
+    <div id="form">
+        <button class="floating-del-button">-</button>
+        <button class="floating-add-button">+</button>
     </div>
-    <button class="floating-del-button">-</button>
-    <button class="floating-add-button">+</button>
     <script src="/socket.io/socket.io.js"></script>
     <script src="scripts/realtimeproducts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
